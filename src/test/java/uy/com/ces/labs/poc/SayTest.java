@@ -19,7 +19,7 @@ class SayTest {
 
 	@ParameterizedTest
 	@DisplayName("Check translations")
-	@CsvSource({ "ES,Juan,Hola Juan", "EN,Mary,Hello Mary", "PT,Ramona,Salut Ramona" })
+	@CsvSource({ "ES,Juan,Hola Juan", "EN,Mary,Hello Mary", "PT,Ramona,Olá Ramona" })
 	void esTest(String lang, String name, String expect) {
 		assertEquals(expect, say.hello(lang, name));
 	}
