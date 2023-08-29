@@ -15,7 +15,7 @@ public class Say {
 	static {
 		GREETINGS.put("ES", "Hola %s");
 		GREETINGS.put("EN", "Hello %s");
-		GREETINGS.put("PT", "Olá %s");
+		GREETINGS.put("PT", "Salut %s");
 	}
 
 	/**
