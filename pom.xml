@@ -3,6 +3,7 @@
 	<groupId>uy.com.ces.labs.poc</groupId>
 	<artifactId>maven-jar-artefact</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
 	<dependencies>
 		<dependency>
@@ -43,4 +44,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/ddleonces/maven-jar-artefact</url>
+		</repository>
+	</distributionManagement>
+
 </project>
